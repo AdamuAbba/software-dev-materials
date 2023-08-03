@@ -1,0 +1,30 @@
+div {
+  background-color: aqua;
+  margin: 10px;
+}
+
+#firstBox {
+  flex: 3;
+}
+
+#secondBox {
+  flex: 6;
+}
+
+#thirdBox {
+  flex: 2;
+}
+
+#loremText {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  /* padding: 3rem; */
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
